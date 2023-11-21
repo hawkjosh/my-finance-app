@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useForm } from 'react-hook-form'
 
-export const FormsPractice = () => {
+export const BasicForm = () => {
 	const { register, handleSubmit } = useForm()
 
 	return (

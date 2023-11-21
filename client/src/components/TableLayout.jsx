@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { useEffect, useState } from 'react'
-import { apiGet, apiAdd, apiEdit, apiDelete } from '../helpers/api.js'
+import { apiGet, apiAdd, apiEdit, apiDelete } from '../api/api.js'
 
 export const TableLayout = () => {
 	const [transactions, setTransactions] = useState([])

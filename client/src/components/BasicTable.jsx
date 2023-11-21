@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import mData from '../MOCK_DATA.json'
+import mData from '../data/MOCK_DATA.json'
 import {
 	flexRender,
 	getCoreRowModel,

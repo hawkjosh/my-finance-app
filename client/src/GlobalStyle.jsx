@@ -28,16 +28,14 @@ export const GlobalStyle = createGlobalStyle`
 
     & body {
       width: 100%;
+      height: 100dvh;
       min-width: 20rem;
       max-width: 80rem;
       overflow-x: hidden;
-      min-height: 100dvh;
       margin: auto;
 
       & #root {
-        height: 100dvh;
         display: flex;
-        /* place-items: center; */
         place-content: center;
       }
     }
